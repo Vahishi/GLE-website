@@ -201,7 +201,7 @@
 
       <!-- Right: Image -->
       <div class="manpower-images">
-        <img id="dynamicRentalImage" src="image/Manpower.jpg" alt="Rental Equipment" />
+        <img id="dynamicRentalImage" src="image/Equipmemts.jpg" alt="Rental Equipment" />
       </div>
     </div>
 
@@ -211,9 +211,53 @@
 
 
 <section id="material-section" class="service-details">
-  <div class="container">
-    <h2>Material Supply</h2>
-    <p>Here you can add detailed information about Material Supply...</p>
+  <div class="container manpower-container">
+
+    <!-- Full-width Text -->
+    <div class="manpower-text-full">
+      <h2>Material Supply</h2>
+      <p>
+        We provide a wide range of high-quality industrial, electrical, mechanical,
+        and building materials to support construction, maintenance, and
+        infrastructure projects. Our reliable supply chain ensures timely delivery,
+        consistent quality, and cost-effective solutions for uninterrupted project
+        execution.
+      </p>
+    </div>
+
+    <!-- Two-column list + image -->
+    <div class="manpower-list-image">
+      
+      <!-- Left: List -->
+      <ul class="rental-list">
+        <li><strong>Industrial Materials</strong></li>
+        <li>Electrical Materials</li>
+        <li>Cables and Wires</li>
+        <li>Electrical Tools</li>
+        <li>Industrial Plug & Socket</li>
+
+        <li><strong>Mechanical Materials</strong></li>
+        <li>Mechanical Tools</li>
+        <li>Mechanical Fittings</li>
+        <li>Types of Bolts & Fasteners</li>
+
+        <li><strong>Building Materials</strong></li>
+        <li>Construction Materials</li>
+        <li>Steel Structure Materials</li>
+        <li>Construction Tools</li>
+      </ul>
+
+      <!-- Right: Image -->
+      <div class="manpower-images">
+        <img
+          id="dynamicMaterialImage"
+          src="image/Material.jpg"
+          alt="Material Supply"
+        />
+      </div>
+
+    </div>
+
   </div>
 </section>
 
@@ -279,33 +323,57 @@
             <div class="contact-primary">
 
                 <h3>Send Us a Message</h3>
-                <form id="contactForm" method="post" action="" novalidate>
-                    <div class="form-field">
-                        <input type="text" name="contactName" id="contactName" placeholder="Your Name" required minlength="2">
-                    </div>
-                    <div class="form-field">
-                        <input type="email" name="contactEmail" id="contactEmail" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-field">
-                        <input type="text" name="contactSubject" id="contactSubject" placeholder="Subject">
-                    </div>
-                    <div class="form-field">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="8" required></textarea>
-                    </div>
-                    <div class="form-field">
-                        <button type="submit" class="btn">Submit</button>
-                        <!-- <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
-                            <div class="s-loader">
-                                <div class="bounce1"></div>
-                                <div class="bounce2"></div>
-                                <div class="bounce3"></div>
-                            </div>
-                        </div> -->
-                    </div>
-                    <!-- <div class="message-warning">Something went wrong. Please try again.</div>
-                    <div class="message-success">Your message was sent, thank you!</div> -->
-                </form>
+                <form id="contactForm"
+      method="POST"
+      action="https://formspree.io/f/mbddljej"
+      novalidate>
+
+    <!-- Honeypot (spam protection) -->
+    <input type="text" name="_gotcha" style="display:none">
+
+    <div class="form-field">
+        <input type="text"
+               name="name"
+               id="contactName"
+               placeholder="Your Name"
+               required
+               minlength="2">
+    </div>
+
+    <div class="form-field">
+        <input type="email"
+               name="email"
+               id="contactEmail"
+               placeholder="Your Email"
+               required>
+    </div>
+
+    <div class="form-field">
+        <input type="text"
+               name="subject"
+               id="contactSubject"
+               placeholder="Subject">
+    </div>
+
+    <div class="form-field">
+        <textarea name="message"
+                  id="contactMessage"
+                  placeholder="Your Message"
+                  rows="8"
+                  required></textarea>
+    </div>
+
+    <!-- Optional: Redirect after success -->
+    <!--
+    <input type="hidden" name="_redirect" value="https://yourusername.github.io/thank-you.html">
+    -->
+
+    <div class="form-field">
+        <button type="submit" class="btn">Submit</button>
+    </div>
+
+</form>
+
             </div>
 
             <!-- Right: Contact Info -->
@@ -335,7 +403,7 @@
 </section>
 
 <footer id="footer">
-    <p>© 2025 GLE Global Solutions. All rights reserved.</p>
+    <p>© 2026 General Landmark Establishment. All rights reserved.</p>
 </footer>
 
 

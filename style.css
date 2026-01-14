@@ -867,15 +867,15 @@ button.btn {
   color: #e0e0e0;
 }
 .manpower {
-  background-image: url("image/Manpower.jpg");
+  background-image: url("image/manpower/Manpower.jpg");
 }
 
 .rental {
-  background-image: url("image/Equipmemts.jpg");
+  background-image: url("image/rental/Equipmemts.jpg");
 }
 
 .material {
-  background-image: url("image/Material.jpg");
+  background-image: url("image/material/Material.jpg");
 }
 /* Smooth scroll */
 html {
@@ -1026,4 +1026,10 @@ html {
   .manpower-list li {
     font-size: 14px;
   }
+}
+.material-list li strong {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #222;
 }

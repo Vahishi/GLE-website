@@ -62,9 +62,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener("DOMContentLoaded", () => {
   const manpowerImages = [
-    "image/Manpower.jpg",
-    "image/background.jpg",
-    "image/Material.jpg"
+    "image/manpower/Manpower.jpg",
+    "image/manpower/Manpower2.jpg",
+    "image/manpower/Manpower3.jpg"
   ];
 
   let currentIndex = 0;
@@ -135,9 +135,10 @@ document.addEventListener("DOMContentLoaded", () => {
 // });
 document.addEventListener("DOMContentLoaded", () => {
   const rentalImages = [
-    "image/Manpower.jpg",
-    "image/construction.jpg",
-    "image/Crane.jpg"
+    "image/rental/Equipmemts.jpg",
+    "image//rental/dumptruck.jpg",
+    "image/rental/Crane.png",
+    "image/rental/forklift.jpg"
   ];
 
   let currentIndex = 0;
@@ -160,12 +161,40 @@ document.addEventListener("DOMContentLoaded", () => {
   imgElement.addEventListener("click", changeImage);
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+  const rentalImages = [
+    "image/material/steel.jpg",
+    "image/material/tools.jpg",
+    "image/material/electric.avif"
+  ];
+
+  let currentIndex = 0;
+  const imgElement = document.getElementById("dynamicMaterialImage");
+
+  if (!imgElement) return;
+
+  function changeImage() {
+    imgElement.style.opacity = 0;
+
+    setTimeout(() => {
+      currentIndex++;
+      if (currentIndex >= rentalImages.length) currentIndex = 0;
+      imgElement.src = rentalImages[currentIndex];
+      imgElement.style.opacity = 1;
+    }, 500);
+  }
+
+  setInterval(changeImage, 3000);
+  imgElement.addEventListener("click", changeImage);
+});
+
+
 const hero = document.getElementById("hero");
 
 const images = [
-    "image/Manpower.jpg",
-    "image/Equipmemts.jpg",
-    "image/Material.jpg"
+    "image/manpower/Manpower.jpg",
+    "image/rental/Equipmemts.jpg",
+    "image/material/Material.jpg"
     
 ];
 
