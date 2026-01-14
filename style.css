@@ -867,15 +867,15 @@ button.btn {
   color: #e0e0e0;
 }
 .manpower {
-  background-image: url("image/manpower/Manpower.jpg");
+  background-image: url("image/manpower/Manpower.png");
 }
 
 .rental {
-  background-image: url("image/rental/Equipmemts.jpg");
+  background-image: url("image/rental/escavator.png");
 }
 
 .material {
-  background-image: url("image/material/Material.jpg");
+  background-image: url("image/material/Material.png");
 }
 /* Smooth scroll */
 html {

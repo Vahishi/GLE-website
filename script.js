@@ -62,9 +62,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener("DOMContentLoaded", () => {
   const manpowerImages = [
-    "image/manpower/Manpower.jpg",
-    "image/manpower/Manpower2.jpg",
-    "image/manpower/Manpower3.jpg"
+    "image/manpower/Manpower.png",
+    "image/manpower/Manpower2.png",
+    "image/manpower/Manpower3.png"
   ];
 
   let currentIndex = 0;
@@ -95,9 +95,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 // document.addEventListener("DOMContentLoaded", () => {
 //   const manpowerImages = [
-//     "image/Manpower.jpg",
+//     "image/Manpower.png",
 //     "image/background.jpg",
-//     "image/Material.jpg"
+//     "image/Material.png"
 //   ];
 
 //   let currentIndex = 0;
@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // });
 document.addEventListener("DOMContentLoaded", () => {
   const rentalImages = [
-    "image/rental/Equipmemts.jpg",
+    "image/rental/escavator.png",
     "image//rental/dumptruck.jpg",
     "image/rental/Crane.png",
     "image/rental/forklift.jpg"
@@ -192,9 +192,9 @@ document.addEventListener("DOMContentLoaded", () => {
 const hero = document.getElementById("hero");
 
 const images = [
-    "image/manpower/Manpower.jpg",
-    "image/rental/Equipmemts.jpg",
-    "image/material/Material.jpg"
+    "image/manpower/Manpower.png",
+    "image/rental/escavator.png",
+    "image/material/Material.png"
     
 ];
 
