@@ -154,6 +154,16 @@ header .logo img {
     background: rgba(0,0,0,0.6);
 }
 
+.hero-vision {
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    width: 220px;          /* adjust size */
+    height: auto;
+    z-index: 2;            /* above dark overlay */
+    pointer-events: none; /* prevents blocking clicks */
+}
+
 .hero-content {
     position: absolute;
     top: 50%;          /* vertical center */

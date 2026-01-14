@@ -196,6 +196,7 @@ const images = [
     "image/rental/escavator.png",
     "image/material/Material.png"
     
+    
 ];
 
 let index = 0;
