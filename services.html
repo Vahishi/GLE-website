@@ -222,7 +222,98 @@
 
   </div>
 </section>
+    <!-- CONTACT -->
+ <section id="contact" class="section bg-dark">
+    
+    <div class="container contact-container">
+           <div class="contact-header text-center">
+            <h3>CONTACT US</h3>
+            <h1>Reach out for a new project or just say hello</h1>
+        </div>
+       
+        <div class="contact-row">
+            <!-- Left: Contact Form -->
+            <div class="contact-primary">
 
+                <h3>Send Us a Message</h3>
+                <form id="contactForm"
+      method="POST"
+      action="https://formspree.io/f/mbddljej"
+      novalidate>
+
+    <!-- Honeypot (spam protection) -->
+    <input type="text" name="_gotcha" style="display:none">
+
+    <div class="form-field">
+        <input type="text"
+               name="name"
+               id="contactName"
+               placeholder="Your Name"
+               required
+               minlength="2">
+    </div>
+
+    <div class="form-field">
+        <input type="email"
+               name="email"
+               id="contactEmail"
+               placeholder="Your Email"
+               required>
+    </div>
+
+    <div class="form-field">
+        <input type="text"
+               name="subject"
+               id="contactSubject"
+               placeholder="Subject">
+    </div>
+
+    <div class="form-field">
+        <textarea name="message"
+                  id="contactMessage"
+                  placeholder="Your Message"
+                  rows="8"
+                  required></textarea>
+    </div>
+
+    <!-- Optional: Redirect after success -->
+    <!--
+    <input type="hidden" name="_redirect" value="https://yourusername.github.io/thank-you.html">
+    -->
+
+    <div class="form-field">
+        <button type="submit" class="btn">Submit</button>
+    </div>
+
+</form>
+
+            </div>
+
+            <!-- Right: Contact Info -->
+            <div class="contact-secondary">
+                <h3>Contact Info</h3>
+                <div class="cinfo">
+                    <h5>Where to Find Us</h5>
+                    <p>1600 Amphitheatre Parkway<br>Mountain View, CA<br>94043 US</p>
+                </div>
+                <div class="cinfo">
+                    <h5>Email Us At</h5>
+                    <p>contact@GLEsolutions.com<br>info@GLEsolutions.com</p>
+                </div>
+                <div class="cinfo">
+                    <h5>Call Us At</h5>
+                    <p>Phone: (+91) 98765 43210<br>Mobile: (+91) 98765 43211</p>
+                </div>
+                <ul class="contact-social">
+                           <li><a href="#"><i class="fa-brands fa-facebook"></i><span></span></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter"></i><span></span></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i><span></span></a></li>
+        <li><a href="#"><i class="fa-brands fa-whatsapp"></i><span></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 <script src="script.js"></script>
 
 
