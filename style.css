@@ -132,7 +132,7 @@ nav a:hover {
 }
 
 header .logo img {
-    height: 50px;   /* adjust as needed */
+    height: 70px;   /* adjust as needed */
     width: auto;    /* keeps aspect ratio */
     display: block;
 }
