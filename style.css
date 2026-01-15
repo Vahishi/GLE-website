@@ -1142,7 +1142,7 @@ html {
 }
 
 .about-logo {
-    height: 90px;        /* adjust if needed */
+    height: 90px;
     width: auto;
     margin-bottom: 20px;
 }
@@ -1150,30 +1150,19 @@ html {
 .about-values {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    align-items: center;
+    gap: 18px;                 /* spacing between text & dot */
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
     color: #fff;
-
-    transform: translateX(15px); /* move right */
+    transform: translateX(15px);
 }
 
-
-.about-values span {
-    position: relative;
-}
-
-/* Optional separator dot */
-.about-values span::after {
-    content: "•";
-    position: absolute;
-    right: -18px;
+.about-values .separator {
     color: #2283c4;
-}
-
-.about-values span:last-child::after {
-    content: "";
+    font-size: 18px;
+    line-height: 1;
 }
 
 /* Mobile */
