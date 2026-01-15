@@ -136,27 +136,12 @@ header .logo img {
     width: auto;    /* keeps aspect ratio */
     display: block;
 }
-
 @media (max-width: 768px) {
-    header {
-        padding: 12px 0;
-    }
-
     header .logo img {
-        height: 70px;
+        height: 65px;   /* smaller logo for mobile */
     }
-
-    .hero-vision {
-        top: 85px;     /* ✅ aligns just below header */
-        left: 16px;
-        width: 80px;
-        height: auto;
-        z-index: 2;
-        pointer-events: none;
-    }
+    
 }
-
-
 
 
 
