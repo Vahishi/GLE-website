@@ -143,7 +143,7 @@ header .logo img {
     }
 
     .hero-vision {
-        top: 90px;          /* push below fixed header */
+        top: 20px;          /* push below fixed header */
         left: 20px;         /* closer to left edge on mobile */
         width: 80px;       /* 🔽 reduced size */
         height: auto;
