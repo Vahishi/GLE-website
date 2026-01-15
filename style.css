@@ -145,7 +145,7 @@ header .logo img {
     .hero-vision {
         top: 90px;          /* push below fixed header */
         left: 20px;         /* closer to left edge on mobile */
-        width: 120px;       /* 🔽 reduced size */
+        width: 80px;       /* 🔽 reduced size */
         height: auto;
         z-index: 2;
         pointer-events: none;
