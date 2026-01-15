@@ -212,3 +212,20 @@ setInterval(() => {
     index = (index + 1) % images.length;
     hero.style.backgroundImage = `url(${images[index]})`;
 }, 4000); // change every 4 seconds
+
+
+const header = document.getElementById("header");
+const aboutSection = document.getElementById("about");
+
+
+window.addEventListener("scroll", () => {
+    const aboutBottom =
+        aboutSection.offsetTop + aboutSection.offsetHeight - 100;
+
+    if (window.scrollY > aboutBottom) {
+        header.classList.add("scrolled");
+    } else {
+        header.classList.remove("scrolled");
+    }
+});
+
