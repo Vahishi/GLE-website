@@ -21,9 +21,10 @@ const words = [
     "Contracting",
     "Rental Equipments",
     "Material Supply",
-    
     "Transportation",
-    "Accounting"
+    "Accounting",
+    "Portable Cabins",
+    "Storage Containers"
 ];
 
 let wordIndex = 0;
@@ -191,14 +192,159 @@ document.addEventListener("DOMContentLoaded", () => {
   imgElement.addEventListener("click", changeImage);
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+  const rentalImages = [
+    "image/Contracting/Contracting1.jpg",
+    "image/Contracting/Contracting2.jpg",
+    "image/Contracting/Contracting3.jpg"
+  ];
+
+  let currentIndex = 0;
+  const imgElement = document.getElementById("dynamicContractImage");
+
+  if (!imgElement) return;
+
+  function changeImage() {
+    imgElement.style.opacity = 0;
+
+    setTimeout(() => {
+      currentIndex++;
+      if (currentIndex >= rentalImages.length) currentIndex = 0;
+      imgElement.src = rentalImages[currentIndex];
+      imgElement.style.opacity = 1;
+    }, 500);
+  }
+
+  setInterval(changeImage, 3000);
+  imgElement.addEventListener("click", changeImage);
+});
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const rentalImages = [
+    "image/Accounting/Accounting1.jpg",
+    "image/Accounting/Accounting2.jpg",
+    "image/Accounting/Accounting3.jpg"
+  ];
+
+  let currentIndex = 0;
+  const imgElement = document.getElementById("dynamicAccountImage");
+
+  if (!imgElement) return;
+
+  function changeImage() {
+    imgElement.style.opacity = 0;
+
+    setTimeout(() => {
+      currentIndex++;
+      if (currentIndex >= rentalImages.length) currentIndex = 0;
+      imgElement.src = rentalImages[currentIndex];
+      imgElement.style.opacity = 1;
+    }, 500);
+  }
+
+  setInterval(changeImage, 3000);
+  imgElement.addEventListener("click", changeImage);
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const rentalImages = [
+    "image/Transportation/Transportation1.jpg",
+    "image/Transportation/Transportation2.jpg",
+    "image/Transportation/Transportation3.jpg",
+    "image/Transportation/Transportation4.jpg"
+    
+  ];
+
+  let currentIndex = 0;
+  const imgElement = document.getElementById("dynamicTransportationImage");
+
+  if (!imgElement) return;
+
+  function changeImage() {
+    imgElement.style.opacity = 0;
+
+    setTimeout(() => {
+      currentIndex++;
+      if (currentIndex >= rentalImages.length) currentIndex = 0;
+      imgElement.src = rentalImages[currentIndex];
+      imgElement.style.opacity = 1;
+    }, 500);
+  }
+
+  setInterval(changeImage, 3000);
+  imgElement.addEventListener("click", changeImage);
+});
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const rentalImages = [
+    "image/Storage/Storage1.jpg",
+    "image/Storage/Storage2.png",
+    "image/Storage/Storage3.jpg"
+  ];
+
+  let currentIndex = 0;
+  const imgElement = document.getElementById("dynamicStorageImage");
+
+  if (!imgElement) return;
+
+  function changeImage() {
+    imgElement.style.opacity = 0;
+
+    setTimeout(() => {
+      currentIndex++;
+      if (currentIndex >= rentalImages.length) currentIndex = 0;
+      imgElement.src = rentalImages[currentIndex];
+      imgElement.style.opacity = 1;
+    }, 500);
+  }
+
+  setInterval(changeImage, 3000);
+  imgElement.addEventListener("click", changeImage);
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const rentalImages = [
+    "image/Portable/portable1.jpg",
+    "image/Portable/portable2.jpg",
+    "image/Portable/portable3.jpg"
+  ];
+
+  let currentIndex = 0;
+  const imgElement = document.getElementById("dynamicPortableImage");
+
+  if (!imgElement) return;
+
+  function changeImage() {
+    imgElement.style.opacity = 0;
+
+    setTimeout(() => {
+      currentIndex++;
+      if (currentIndex >= rentalImages.length) currentIndex = 0;
+      imgElement.src = rentalImages[currentIndex];
+      imgElement.style.opacity = 1;
+    }, 500);
+  }
+
+  setInterval(changeImage, 3000);
+  imgElement.addEventListener("click", changeImage);
+});
+
 
 const hero = document.getElementById("hero");
 
 const images = [
     "image/manpower/Manpower.png",
     "image/rental/escavator.png",
-    "image/material/Material.png",
-    "image/Transportation/Transportation1.jpg"
+    "image/Storage/Storage2.png",
+    
+    "image/Transportation/Transportation2.jpg",
+    "image/Accounting/Accounting2.jpg",
+    
+
+
     
     
 ];

@@ -283,6 +283,9 @@ header .logo img {
     padding: 100px 0;
     background: #111;
 }
+#storage-section {
+  padding-bottom: 140px; /* increase/decrease as needed */
+}
 
 #about .container {
     text-align: center;
@@ -422,7 +425,7 @@ header .logo img {
 }
 
 .contact-primary h3 {
-    color: #08fdd8;
+    color: #2283c4;
     font-size: 22px;
     margin-bottom: 20px;
 }
@@ -468,7 +471,7 @@ header .logo img {
 
 .contact-secondary h3 {
     font-size: 22px;
-    color: #08fdd8;
+    color: #2283c4;
     margin-bottom: 20px;
 }
 
@@ -496,7 +499,7 @@ header .logo img {
 
 .contact-secondary .contact-social li a {
     font-size: 20px;
-    color: #08fdd8;
+    color: #2283c4;
     transition: 0.3s;
 }
 
@@ -518,7 +521,7 @@ header .logo img {
 }
 
 .contact-header h3 {
-    color: #08fdd8;
+    color: #2283c4;
     font-size: 30px;
     margin-bottom: 10px;
 
@@ -565,7 +568,7 @@ header .logo img {
 
 .stat .counter {
     font-size: 40px;
-    color: #08fdd8;
+    color: #2283c4;
 }
 
 /* CONTACT */
@@ -898,6 +901,22 @@ button.btn {
 .material {
   background-image: url("image/material/Material.png");
 }
+.contract {
+  background-image: url("image/Contracting/Contracting1.jpg");
+}
+.transportation {
+  background-image: url("image/Transportation/Transportation2.jpg");
+}
+.accounting {
+  background-image: url("image/Accounting/Accounting1.jpg");
+}
+.portable{
+  background-image: url("image/Portable/portable1.jpg");
+}
+.storage {
+  background-image: url("image/Storage/storage2.png");
+}
+
 /* Smooth scroll */
 html {
   scroll-behavior: smooth;
@@ -905,7 +924,7 @@ html {
 
 /* Detailed Service Sections */
 .service-details {
-  padding: 100px 20px;
+  padding: 170px 20px 0px;
   background: #f9f9f9;
   color: #111;
 }
@@ -977,7 +996,7 @@ html {
 .manpower-images {
   flex: 1;           /* take remaining space */
   min-width: 250px;  /* prevent shrinking too much */
-  max-width: 700px;  /* optional max width */
+  max-width: 900px;  /* optional max width */
   height: 400px;     /* fixed height */
   overflow: hidden;  /* hide overflow if image is larger */
   border-radius: 12px;
