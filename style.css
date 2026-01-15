@@ -1073,3 +1073,57 @@ html {
   font-weight: 600;
   color: #222;
 }
+
+
+.clients-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.clients-title {
+  font-size: 40px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+/* Slider wrapper */
+.clients-slider {
+  overflow: hidden;
+  position: relative;
+  background: #ffffff;   /* ✅ white background */
+  padding: 20px 0;       /* optional: breathing space */
+}
+
+/* Track */
+.clients-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 30s linear infinite;
+}
+
+/* Logos */
+.clients-track img {
+  height: 100px;          /* 🔼 increased size */
+  margin: 0 50px;         /* more spacing */
+  object-fit: contain;
+  opacity: 1;             /* original image */
+  transition: none;       /* remove animation effects */
+}
+
+/* Animation */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .clients-track img {
+    height: 70px;         /* still big but fits mobile */
+    margin: 0 30px;
+  }
+}
