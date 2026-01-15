@@ -281,7 +281,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   const rentalImages = [
     "image/Storage/Storage1.jpg",
-    "image/Storage/Storage2.png",
+    "image/Storage/storage2.png",
     "image/Storage/Storage3.jpg"
   ];
 
