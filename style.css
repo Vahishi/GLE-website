@@ -316,6 +316,15 @@ header .logo img {
     margin-top: 20px; 
     margin-bottom: 20px;   /* spacing from the heading */
 }
+#about {
+    padding-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+    #about {
+        padding-bottom: 40px;
+    }
+}
 
 
 #services .container {

@@ -170,8 +170,8 @@ document.addEventListener("DOMContentLoaded", () => {
     "image/material/steel.jpg",
     "image/material/tools.jpg",
     "image/material/electric.avif",
-    "image/material/material1.jpg",
-    "image/material/material2.jpg"
+    "image/material/material1.JPG",
+    "image/material/material2.JPG"
   ];
 
   let currentIndex = 0;
