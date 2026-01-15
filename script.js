@@ -169,7 +169,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const rentalImages = [
     "image/material/steel.jpg",
     "image/material/tools.jpg",
-    "image/material/electric.avif"
+    "image/material/electric.avif",
+    "image/material/material1.jpg",
+    "image/material/material2.jpg"
   ];
 
   let currentIndex = 0;
