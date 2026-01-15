@@ -74,7 +74,7 @@ header {
     width: 100%;
     top: 0;
     padding: 20px 0;
-    background: #000 !important;   /* solid black header */
+     background: transparent;   /* solid black header */
     backdrop-filter: none !important;
     z-index: 1000;
 }
@@ -132,10 +132,27 @@ nav a:hover {
 }
 
 header .logo img {
-    height: 70px;   /* adjust as needed */
+    height: 110px;   /* adjust as needed */
     width: auto;    /* keeps aspect ratio */
     display: block;
 }
+
+  @media (max-width: 768px) {
+    header .logo img {
+        height: 70px;
+    }
+
+    .hero-vision {
+        top: 90px;          /* push below fixed header */
+        left: 20px;         /* closer to left edge on mobile */
+        width: 120px;       /* 🔽 reduced size */
+        height: auto;
+        z-index: 2;
+        pointer-events: none;
+    }
+}
+
+
 
 
 
@@ -156,7 +173,7 @@ header .logo img {
 
 .hero-vision {
     position: absolute;
-    top: 120px;
+    top: 150px;
     left: 80px;
     width: 220px;          /* adjust size */
     height: auto;

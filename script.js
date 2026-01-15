@@ -20,7 +20,10 @@ const words = [
     "Manpower Solutions ",
     "Contracting",
     "Rental Equipments",
-    "Material Supply"
+    "Material Supply",
+    
+    "Transportation",
+    "Accounting"
 ];
 
 let wordIndex = 0;
@@ -194,7 +197,8 @@ const hero = document.getElementById("hero");
 const images = [
     "image/manpower/Manpower.png",
     "image/rental/escavator.png",
-    "image/material/Material.png"
+    "image/material/Material.png",
+    "image/Transportation/Transportation1.jpg"
     
     
 ];
