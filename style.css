@@ -137,15 +137,19 @@ header .logo img {
     display: block;
 }
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+    header {
+        padding: 12px 0;
+    }
+
     header .logo img {
         height: 70px;
     }
 
     .hero-vision {
-        top: 20px;          /* push below fixed header */
-        left: 20px;         /* closer to left edge on mobile */
-        width: 80px;       /* 🔽 reduced size */
+        top: 85px;     /* ✅ aligns just below header */
+        left: 16px;
+        width: 80px;
         height: auto;
         z-index: 2;
         pointer-events: none;
