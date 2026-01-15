@@ -341,7 +341,7 @@ const images = [
     "image/Storage/Storage2.png",
     
     "image/Transportation/Transportation2.jpg",
-    "image/Accounting/Accounting2.jpg",
+    "image/Accounting/Accounting2.jpg"
     
 
 
