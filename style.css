@@ -1164,6 +1164,11 @@ html {
     font-size: 18px;
     line-height: 1;
 }
+@media (max-width: 480px) {
+    .about-values .separator {
+        display: none;
+    }
+}
 
 /* Mobile */
 @media (max-width: 768px) {
