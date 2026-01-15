@@ -338,7 +338,7 @@ const hero = document.getElementById("hero");
 const images = [
     "image/manpower/Manpower.png",
     "image/rental/escavator.png",
-    "image/Storage/Storage2.png",
+    "image/Storage/storage2.png",
     
     "image/Transportation/Transportation2.jpg",
     "image/Accounting/Accounting2.jpg"
