@@ -794,7 +794,7 @@ button.btn {
         top: 0;
         right: -100%;
         width: 50%;
-        height: 100vh;
+        height: 50vh;
         background: rgba(20, 20, 20, 0.95);
         flex-direction: column;
         gap: 25px;
