@@ -19,6 +19,7 @@ const observer = new IntersectionObserver(entries => {
 const words = [
     "Manpower Solutions ",
     "Contracting",
+    "Civil Works",
     "Rental Equipments",
     "Material Supply",
     "Transportation",
